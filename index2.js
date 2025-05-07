@@ -5,9 +5,7 @@ const { auth, JWT_SECRET } = require("./auth2");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 
-mongoose.connect(
-  "mongodb+srv://sashbob0704:sairam%40123$@cluster0.6vq71.mongodb.net/todo-app"
-);
+mongoose.connect("");
 
 const app = express();
 app.use(express.json());
